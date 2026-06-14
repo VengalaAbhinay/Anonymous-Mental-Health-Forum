@@ -28,7 +28,7 @@ export default function ChatRoom() {
   const requestInFlightRef = useRef(false);
 
   useEffect(() => {
-    socket = io("http://localhost:8000", {
+    socket = io("https://anonymous-mental-health-forum.onrender.com", {
       path: "/socket.io",
       withCredentials: true,
     });
