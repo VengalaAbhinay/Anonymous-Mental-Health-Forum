@@ -28,7 +28,7 @@ export default function ChatRoom() {
   const requestInFlightRef = useRef(false);
 
   useEffect(() => {
-    socket = io("https://anonymous-mental-health-forum.onrender.com", {
+    socket = io(import.meta.env.VITE_API_URL, {
       path: "/socket.io",
       withCredentials: true,
     });
