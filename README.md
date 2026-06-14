@@ -1,4 +1,4 @@
-# 🌿 MindSpace — Anonymous Mental Health Forum
+#  MindSpace — Anonymous Mental Health Forum
 
 A MERN stack project for students to discuss stress and anxiety anonymously.
 
@@ -145,3 +145,6 @@ This can be upgraded to a real ML model later.
 - [ ] Post bookmarking / saved posts
 - [ ] PWA support for mobile students
 - [ ] Replace keyword sentiment with a real model (Hugging Face API)
+
+
+deployment link :- https://anonymous-mental-health-forum.vercel.app
